@@ -7,7 +7,7 @@ public class Connexion
     public Statement stat;
     ResultSet res;
 
-    protected static String url = "postgresql://postgres:93owc40E08BF1Ih6aG6m@containers-us-west-104.railway.app:6092/railway";
+    protected static String url = "jdbc:postgresql://containers-us-west-104.railway.app:6092/railway";
     protected static String Username = "postgres";
     protected static String Password = "93owc40E08BF1Ih6aG6m";
 
